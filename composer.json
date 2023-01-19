@@ -1,0 +1,20 @@
+{
+  "name": "vendor_name/cv_api",
+  "description": "description",
+  "minimum-stability": "stable",
+  "license": "proprietary",
+  "authors": [
+    {
+      "name": "senne",
+      "email": "email@example.com"
+    }
+  ],
+  "require": {
+    "league/oauth2-client": "^2.6",
+    "league/oauth2-google": "^4.0",
+    "google/apiclient": "2.12.1"
+  },
+  "config": {
+    "platform-check": false
+  }
+}
